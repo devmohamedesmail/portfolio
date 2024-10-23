@@ -8368,6 +8368,12 @@ h1, h2, h3, h4, h5,
   font-size: 24px;
   text-transform: uppercase; }
 
+
+  .hero {
+    height: 83vh;
+    overflow: hidden; /* Allow scrolling */
+}
+
 .hero h3.vr {
   -webkit-writing-mode: vertical-lr;
   -ms-writing-mode: tb-lr;
@@ -8699,7 +8705,7 @@ h1, h2, h3, h4, h5,
 
   .hero-contact-items-container{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
 .hero-contact-item{
   background-color: var(--dark);
@@ -8708,8 +8714,8 @@ h1, h2, h3, h4, h5,
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8) inset;
   transition: all 0.3s ease-in-out;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
