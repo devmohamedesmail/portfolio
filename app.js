@@ -3,7 +3,7 @@ const express = require('express');
 const expressLayouts = require('express-ejs-layouts');
 const connectDB = require('./server/config/db');
 const app = express();
-const PORT =  3000 || process.env.PORT;
+const PORT =  3000;
 app.use(express.static('public'));
 connectDB() 
 // Template Engine
