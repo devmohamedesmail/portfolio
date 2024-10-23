@@ -9757,3 +9757,37 @@ textarea.form-control {
   margin: 5px;
   cursor: pointer;
 }
+
+/* Float Section */
+.float-section{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.float-items-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.float-item{
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.float-item{
+  background-color: var(--warning);
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light);
+}
+.float-item i{
+  color: black;
+}
+.float-item:hover{
+  transform: scale(1.1);
+}
