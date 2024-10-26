@@ -14057,8 +14057,8 @@ textarea.form-control {
 /* Float Section */
 .float-section {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 50px;
+  right: 30px;
 }
 
 .float-items-container {
